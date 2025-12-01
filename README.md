@@ -1,14 +1,11 @@
 # linux-handbook
 
 
-✔️ A **GitHub-upload ready folder structure**
-✔️ Three folders: **basic**, **intermediate**, **advanced**
-✔️ Each folder contains **multiple working Linux automation scripts**
-✔️ You can directly **push to GitHub** and execute scripts properly
+
 
 ---
 
-## ✅ Project Structure (Copy-Paste into your Repo)
+## ✅ Project Structure 
 
 ```
 linux-server-automation/
