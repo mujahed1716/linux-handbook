@@ -38,7 +38,7 @@ linux-server-automation/
 ---
 
 ## 🟩 **Folder: basic**
-[basic](linux-server-automation/basic/create_users.sh)
+[basic](linux-server-automation/basic)
 
 ### 1️⃣ `create_users.sh`
 
