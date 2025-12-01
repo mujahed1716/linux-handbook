@@ -183,6 +183,7 @@ sudo ufw --force enable
 
 echo "Firewall configured: SSH, HTTP, HTTPS allowed"
 sudo ufw status verbose
+```
 
 
 ### 5️⃣ `logrotate_config.sh`
