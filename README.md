@@ -82,6 +82,7 @@ echo "Disk Info:"; df -h
 ---
 
 ## 🟨 **Folder: intermediate**
+[intermediate](linux-server-automation/intermediate)
 
 ### 1️⃣ `automate_backup.sh`
 
@@ -127,7 +128,7 @@ echo "---Memory---"; free -h
 ---
 
 ## 🟥 **Folder: advanced**
-
+[advanced](linux-server-automation/advanced)
 ### 1️⃣ `custom_systemd_service.sh`
 
 ```bash
