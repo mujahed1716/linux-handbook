@@ -62,10 +62,12 @@ echo "Permissions set for /opt/devproject"
 
 ```bash
 #!/bin/bash
-sudo apt update -y
-sudo apt install -y git nginx default-jdk
-echo "Git, Nginx & Java installed"
-```
+sudo yum update -y
+sudo yum install -y git nginx java-17-amazon-corretto
+sudo systemctl enable nginx
+sudo systemctl start nginx
+echo "Git, Nginx & Java installed successfully on Amazon Linux"
+
 
 ### 4️⃣ `system_info.sh`
 
@@ -170,14 +172,18 @@ echo "LVM setup completed"
 ```
 
 ### 4️⃣ `firewall_setup.sh`
-
 ```bash
 #!/bin/bash
 sudo ufw allow OpenSSH
 sudo ufw allow 80/tcp
-sudo ufw enable
-echo "Firewall configured: SSH + HTTP allowed"
-```
+sudo ufw allow 443/tcp
+sudo ufw logging on
+echo "Enabling UFW firewall..."
+sudo ufw --force enable
+
+echo "Firewall configured: SSH, HTTP, HTTPS allowed"
+sudo ufw status verbose
+
 
 ### 5️⃣ `logrotate_config.sh`
 
