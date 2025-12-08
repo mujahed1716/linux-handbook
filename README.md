@@ -1,4 +1,27 @@
 # linux-handbook
+<!-- TOC START -->
+  - [Linux server automation](linux-server-automation/)
+  - [Advanced](linux-server-automation/advanced/)
+    - [Custom systemd service](linux-server-automation/advanced/custom_systemd_service.sh)
+    - [Firewall setup](linux-server-automation/advanced/firewall_setup.sh)
+    - [Logrotate config](linux-server-automation/advanced/logrotate_config.sh)
+    - [Lvm setup](linux-server-automation/advanced/lvm_setup.sh)
+    - [Ssh hardening](linux-server-automation/advanced/ssh_hardening.sh)
+  - [Basic](linux-server-automation/basic/)
+    - [Create users](linux-server-automation/basic/create_users.sh)
+    - [Install packages](linux-server-automation/basic/install_packages.sh)
+    - [Set permissions](linux-server-automation/basic/set_permissions.sh)
+    - [System info](linux-server-automation/basic/system_info.sh)
+  - [Intermediate](linux-server-automation/intermediate/)
+    - [Automate backup](linux-server-automation/intermediate/automate_backup.sh)
+    - [Check service status](linux-server-automation/intermediate/check_service_status.sh)
+    - [Log cleanup](linux-server-automation/intermediate/log_cleanup.sh)
+    - [Performance monitor](linux-server-automation/intermediate/performance_monitor.sh)
+  - [README](README.md)
+  - [README.md](README.md.bak)
+  - [Script](script.bash)
+  - [Table of contexts](table-of-contexts.sh)
+<!-- TOC END -->
 
 
 
